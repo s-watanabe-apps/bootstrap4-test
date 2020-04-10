@@ -1,0 +1,19 @@
+@media only screen and (max-width: 766px) {
+  .navbar-nav{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .navbar .nav-item {
+    margin: 0;
+    display: inline-block;
+    width: 49%;
+  }
+  .navbar li {
+    border-bottom: solid 1px #ddd;
+  }
+  .navbar li.left-item {
+    border-right: solid 1px #ddd;
+    padding-right: -1px;
+  }
+}
